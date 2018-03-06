@@ -13,7 +13,7 @@ while True:
 		pass
 	if myDecoder.decode():
 		print("success")
+		myDecoder.dumpResults(True)
 	else:
 		print("failed")
-	myDecoder.dumpResults(True)
 	myReceiver.enableIRIn() 
